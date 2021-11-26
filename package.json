@@ -10,6 +10,6 @@
   },
   "scripts": {
     "start": "lerna exec --scope huahua-ui -- npm start",
-    "start:ui": "lerna exec --scope tui -- npm start"
+    "start:app": "lerna exec --scope ysx-react-app -- npm start"
   }
 }
