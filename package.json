@@ -4,7 +4,12 @@
   "devDependencies": {
     "lerna": "^4.0.0"
   },
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "start": "lerna exec --scope huahua-ui -- npm start"
+    "start": "lerna exec --scope huahua-ui -- npm start",
+    "start:ui": "lerna exec --scope tui -- npm start"
   }
 }
